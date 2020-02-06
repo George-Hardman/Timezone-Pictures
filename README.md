@@ -2,6 +2,6 @@
 
 A collaborative project to extract images of locations at dependent on the locations timezone and the current time.
 Aims:
-*Webscrape timezones
-*Webscrape images from a location depending on the current time
-*Display these pages in html format, possibly using Flask
+* Webscrape timezones
+* Webscrape images from a location depending on the current time
+* Display these pages in html format, possibly using Flask
