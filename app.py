@@ -1,12 +1,12 @@
 from flask import Flask
-from . import timezone
+import timezone
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def hello_world():
-    return f'The time is !'
+    return timezone.time_finder()
 
 
 if __name__ == "__main__":
